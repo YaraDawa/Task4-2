@@ -1,0 +1,380 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,200;8..60,300;8..60,400;8..60,500;8..60,600;8..60,700&display=swap'); */
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.overlay-image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(39, 103, 195,0.6);
+}
+.info a,.info span{
+    color: white;
+    padding: 10px;
+    padding-top:10px;
+}
+
+.the-head {
+    height: 100vh;
+    background-color: burlywood;
+    background-image: url(./../images/pichero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.navbar{
+    position: fixed;
+    top: 100px;
+    z-index: 999;
+}
+
+.nav-scrolled{
+    background-color: rgb(134, 140, 164);
+}
+.navbar{
+    transition: all 0.5s;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    height: max-content;
+}
+.info span,svg{
+    color: white;
+}
+.top-banner{
+    position: relative;
+    z-index: 4;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+}
+.head-hero{
+    height: 100vh;
+    background-image: url(./../images/pichero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.hero-over{
+    position: absolute;
+    z-index:0;
+    /* background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)) */
+    background: rgba(0, 0, 255, .6);
+    width: 100%;
+    height: 100%;
+}
+.the-hero{
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a svg{
+    color: white;
+    margin-left: 12px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    
+
+}
+nav{
+    position: fixed;
+    z-index: 9999;
+}
+.navbar-scrolled{
+    background-color: black;
+}
+.info .login{
+    display: flex;
+    justify-content: space-between;
+}
+/* sec1 */
+
+.small-boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+    margin: 10px auto;
+    width: 260px;
+    height: 81px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    background-color:rgb(243,247,253);
+}
+.i1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.i1 svg{
+    font-size: 25px;
+}
+.i1{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 30px;
+
+}
+
+.small-boxes:hover{
+    background-color:  rgb(0,174,255);;
+}
+.category a, .sec4 a{
+    color: rgb(0,174,255);
+}
+
+/* sec2 */
+.sec2 .pic-sec2 img{
+    width: 540px;
+    height: auto;
+    margin-top: -20px;
+}
+.sec2 .text-sec2{
+font-size: 18px;
+
+}
+.sec1{
+    font-size: 30px;
+}
+
+
+.sec2 .butt{
+    background-color:rgb(30,113,215);
+    border-radius: 20px;
+    color: white;
+}
+
+.sec2-text{
+    width: 600px;
+    text-align: center;
+}
+/* sec edu */
+.svg-sec3{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 30px;
+
+}
+.svg-sec3 svg{
+    border: 1px solid #00aeff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* sec4 */
+.sec4{
+    margin-top: 178px;
+}
+.sec4 .sec-4{
+    margin-top: 100px;
+}
+/* sec5 */
+
+.sec5{
+    height: 100vh;
+    background-image: url(./../images/study.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.sec5-text{
+    height: max-content;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.overlay-image2{
+    background: rgba(39, 103, 195,0.6);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;  
+}
+/* sec6 */
+
+.sec6 .butt, .sec5 .butt{
+    background-color:rgb(30,113,215);
+    border-radius: 20px;
+    color: white;
+}
+.sec6 .butt1{
+    background-color: white;
+    border-radius: 20px;
+    border-color: #007bff;
+    color:rgb(30,113,215);
+}
+
+video{
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    border-radius: 4px;
+    box-shadow: 100px 40px rgb(208, 225, 247) ;
+}
+
+
+/* sec7 */
+.news .card, .sec8 .card
+{
+    border-color: rgb(191, 206, 201);
+    transition: 1.2s all;
+    border-radius: 10px;
+
+}
+.news .card:hover{
+    transform: translateY(-10px);
+}
+
+.sec8.card .card-body{
+    position: relative;
+
+}
+
+.sec8.card .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #007bff39;
+    overflow: hidden;
+    transform: scale(0);
+    transition: .2s ease;
+}
+.card:hover .overlay {
+transform: scale(1);
+}
+
+/* sec9 */
+.circle img{
+    border-radius: 50%;
+}
+.sec-9 p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+.point-carousel{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.point{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.point img{
+    border-radius: 50%;
+}
+
+/* sec10 */
+.butt2{
+    background-color: #007bff;
+
+}
+.butt2 p{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+.dash svg{
+    font-size: 20px;
+    color: white;
+}
+
+/* footer */
+footer{
+    background-color: rgb(19,106,213);
+    height: max-content;
+    padding: 10px;
+}
+
+.social{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social a svg{
+    color: black;
+}
+.connect-us{
+    display: flex;
+    gap: 10px;
+
+}
+.list-projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+@media(max-width:992px){
+    .sec2 .pic-sec2 img {
+        width: 250px;
+        height: auto;
+        margin: 20px auto;
+    }
+    video{
+        width: 250px;
+        box-shadow:none;
+    } 
+    
+}
